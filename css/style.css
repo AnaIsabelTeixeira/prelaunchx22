@@ -1,0 +1,76 @@
+/*XCOAX2022*/
+/*6-8 JULY*/
+/*CSS STYLESHEET FOR PRE-LAUNCH*/
+
+/* QUICK CSS RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* GENERAL */
+
+:root {
+  --color1: white;
+  --color2: white;
+}
+
+* {
+  color: white;
+  font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(90deg, var(--color1), var(--color2));
+
+}
+
+#bg_container {
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+img{
+  height: 30vh;
+  margin-top: 35vh;
+  margin-bottom: 35vh;
+}
+
+@media only screen and (min-width: 768px) {
+  img{
+    height: 20vh;
+    margin-top: 40vh;
+    margin-bottom: 40vh;
+  }
+}
